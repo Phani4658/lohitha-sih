@@ -1,5 +1,4 @@
 import HomeCard from "@/components/shared/HomeCard";
-import Image from "next/image";
 import { FaSearch } from "react-icons/fa";
 
 const homeCards = [

@@ -110,7 +110,7 @@ export default function Categories() {
         {categories.map((category) => (
           <TabsContent key={category.value} value={category.value}>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
-              {filterByCategory(category.value).map((card, index) => (
+              {filterByCategory(category.value).map((card) => (
                 <HomeCard cardDetails={card} key={card.price} />
               ))}
             </div>
